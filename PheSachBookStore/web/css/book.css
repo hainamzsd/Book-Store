@@ -1,0 +1,99 @@
+
+.category{   
+    margin-top: 9vh;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: 'segoe UI light';
+}
+
+.category span{
+    font-size: 3vh;
+    background-color: #1F4690;
+    color: white;
+    padding: 1vw;
+    font-family: 'segoe ui light';
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+.category span a{
+    color: white;
+}
+.category span:hover{
+    transition: 0.5s;
+    background-color: rgb(215, 87, 87);
+    padding-bottom:1vh;
+    padding-top:1vh;
+}
+
+.category a:hover{
+    text-decoration: none;
+    color:white;
+
+}
+
+.category a{
+    text-decoration: none;
+    font-family: 'segoe ui light';
+    color: white;
+}
+
+.book{
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.book h2{
+    font-size: 5vh;
+}
+
+.book p{
+    font-size: 3vh;
+}
+
+.list-book{
+    margin-top: 9vh;
+}
+
+
+.list-table{
+    margin-top: 10vh;
+}
+
+.list-table td{
+    margin: 2vh;
+}
+
+#footer{
+    margin-top:115px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2vh;
+}
+
+.policy{
+    list-style-type:none; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.symbol-footer{
+    margin-top:  100px;
+}
+
+
+.tittle-head{
+    margin-top: 80px;
+}
+
+.list-img{
+    width: 300px;
+}
+.list-content-sumary{
+     width: 800px;
+}

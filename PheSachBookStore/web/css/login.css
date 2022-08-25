@@ -1,0 +1,125 @@
+
+.left{
+    background-color: rgb(95, 95, 95);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.left h1{
+    color: white;
+    font-size: 7vh;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0px;
+}
+
+.left p{
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.right{
+    background-color: white;
+}
+
+.right h1{
+    font-size: 7vh;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 10px;
+}
+
+.form-group{
+    font-size: 4vh;
+    text-align: center;
+}
+
+.login-form{
+    margin-top: 27vh;
+}
+
+
+.form-group input{
+    margin: 10px;
+    width:50%;
+    padding: 5vh;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sign-up-btn{
+    font-size: 3vh;
+    background-color: gray;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 30vh;
+    height: 10vh;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sign-up-btn:hover{
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    background-color: black;
+}
+
+
+.sign-in-btn{
+    margin-left: 39vh;
+    display: inline;
+    font-size: 3vh;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 30vh;
+    height: 10vh;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sign-in-btn:hover{
+    transition: 0.4s;
+    color:black;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    background-color: white;
+}
+
+
+.checkbox-line{
+    display: inline;
+    
+}
+
+.checkbox-prob{
+    font-size: 3vh;
+    font-family: 'Segoe UI bold', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+}
+
+.checkbox .a{
+    display: inline;
+}

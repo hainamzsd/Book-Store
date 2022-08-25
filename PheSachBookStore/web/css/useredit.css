@@ -1,0 +1,104 @@
+body{
+    background-image: url("../img/background-image.jpg");
+    background-color: gray;
+    background-repeat: no-repeat;
+}
+
+.main-user{
+    background-color: white;
+    width: 70vh;
+    padding: 5vh;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.edit{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vh;
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: gray;
+    border: none;
+    color: white;
+    margin-top: 2vh;
+}
+
+.edit:hover{
+    transition:0.4s;
+    color: rgb(24, 24, 24);
+}
+
+.main-register h1{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:7vh;
+}
+
+.form-group input
+{
+    margin: 10px;
+    width:100%;
+    padding: 4vh;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form-main{
+    padding: 9vh;
+    margin-bottom: 19vh;
+}
+
+.sign-up-btn{
+    display: block;
+    
+    font-size: 3vh;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 30vh;
+    height: 10vh;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sign-up-btn:hover{
+    transition: 0.4s;
+    color:black;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    background-color: white;
+}
+
+#footer{
+    margin-top:115px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2vh;
+}
+
+.policy{
+    list-style-type:none; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.symbol-footer{
+    margin-top:  100px;
+}

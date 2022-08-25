@@ -1,0 +1,83 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<div class="header">
+    <nav class="navbar navbar-inverse bg-primary" role="navigation" style="height:70px;">
+        <div class="container-fluid" style="text-align: center;margin-top: 10px;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- Link to other sites-->
+                <ul class="nav navbar-nav">
+
+                    <li class="">
+                        <a>
+                            <form action="./user" method="POST">
+                                <input name="action" value="home" type="hidden">
+                                <span class="glyphicon glyphicon-home"> </span>
+                                <input type="submit" value="Home" style="background-color: #222;color: white;border:none">
+                            </form>
+                        </a>
+                    </li>
+                    <li><a href="?action=useredit">User</a></li>
+                    <!--                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>-->
+                    <!-- <li><a href="user?action=writereview">Write A Review</a></li>-->
+                    <li>
+                        <a>
+                            <form action="./user" method="POST">
+                                <input name="action" value="booklist" type="hidden">
+                                <input type="submit" value="Book" style="background-color: #222;color: white;border:none">
+                            </form>
+                        </a>
+
+                    </li>
+                    <li> 
+                        <a>
+                            <form action="./login" method="POST">
+                                <input name="action" value="logout" type="hidden">
+                                <input type="submit" value="LogOut" style="background-color: #222;color: white;border:none">
+                            </form>
+                        </a>
+
+                    </li>
+
+
+
+                    <c:if test="${not empty sessionScope.adminLogged}"><li><a href="admin">Admin Page</a></li></c:if>
+
+
+                    <!--                    
+                    <li><a href="user?action=logout">Logout</a></li>
+                    <!--                    <li> <a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a> </li>-->
+                </ul>
+
+                <!-- form search-->
+                <form class="navbar-form navbar-right" action="./user" method="GET">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="title">
+                        <input name="action" value="booksearch" type="hidden">
+                        <div class="input-group-btn">
+                            <input class="btn btn-default" type="submit" value="Search">
+                        </div>
+                    </div>
+                    <div>${requestScope.msg}</div>
+                </form>
+                </form>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+</div>

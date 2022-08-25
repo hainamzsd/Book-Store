@@ -1,0 +1,70 @@
+body{
+    background-image: url("../img/background-image.jpg");
+    background-color: gray;
+    background-repeat: no-repeat;
+}
+
+.main-register{
+    width: 70vh;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+}
+
+
+.main-register h1{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:7vh;
+}
+
+.form-group input
+{
+    margin: 10px;
+    width:100%;
+    padding: 4vh;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form-main{
+    padding: 9vh;
+    margin-bottom: 19vh;
+}
+
+.sign-up-btn{
+    display: block;
+    
+    font-size: 3vh;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 30vh;
+    height: 10vh;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.sign-up-btn:hover{
+    transition: 0.4s;
+    color:black;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    background-color: white;
+}
